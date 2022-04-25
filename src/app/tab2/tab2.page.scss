@@ -1,0 +1,28 @@
+img{
+    width: 100%;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 719px) {
+    .iDontKnowHowToLoopIamge{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 728px) {
+    .iDontKnowHowToLoopIamge{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1088px) {
+    .iDontKnowHowToLoopIamge{
+        width: 33%;
+    }
+}
+@media only screen and (min-width: 1548px) {
+    .iDontKnowHowToLoopIamge{
+        width: 25%;
+    }
+}
